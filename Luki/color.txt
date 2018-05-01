@@ -1,0 +1,6 @@
+header blue = 2166c1
+abu-abu = 545454
+footer = f4f4f4
+body = #f8f9fa;
+text =  #777777
+border = efefef

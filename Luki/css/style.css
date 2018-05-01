@@ -1,0 +1,467 @@
+/*
+	Tempalte Name = Luki
+	Author		  = YUDI ARIF KURNIAWAN
+	Author URL    = https://ngodeinweb.com
+	Theme URL     = https://nngodeinweb.com/demo/luki/
+	Vrsion        = v 1.0
+	Description   = Luki is simply and responsive template.
+	Last Update   = 01/05/2018 13:24
+
+*/
+ {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: MuseoSans;
+	src: url(../font/MuseoSans.otf);
+}
+body {
+	font-family: arial, heltivica;
+}
+.btn{
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+a {
+	color: #2166c1;
+}
+/* ================================================================
+   particles.js container ======== */
+#particles-js{
+  opacity: 80%;
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  background-color: transparent;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+/*==================================================================
+ HEADER =====*/
+nav {
+	background-color: transparent;
+	border-radius: 0;
+}
+header ul li {
+	padding: 10px;
+}
+header ul li a{
+	color: white;
+	padding: 8px;
+}
+header ul li a:hover {
+	color: white;
+	text-decoration: none;
+}
+/*==================================================================
+ DROPDOWN =======*/
+.dropdown a.dropdown-item:hover {
+	background-color: #2166c1;
+	color: white;
+}
+/*--- end ---*/
+
+.navbar-dark {
+	background-color: #2166c1;
+}
+
+.banner {
+	background-color: #2166c1;
+	text-align: center;
+	color: white;
+	height: 430px;
+}
+.banner .container {
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+.banner .btn-primary {
+	border-radius: 25px;
+}
+.banner .btn-secondary {
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 25px;
+	color: white;
+}
+.banner .btn-secondary:hover {
+	background-color: white;
+	color: blue;
+}
+.banner p a{
+	padding: 10px 20px 10px 20px;
+}
+.banner .btn {
+	margin: 30px 10px 30px 10px;
+	width: 160px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+}
+
+
+/*========================================================================
+ MAIN BODY =======*/
+.card-img-top {
+	height: 225px; 
+	width: 100%; 
+	display: block;
+}
+.card-body {
+	max-height: 200px;
+}
+
+/*=======================================================================
+ SERVICE ======*/
+#services .col-md-12 {
+	text-align: center;
+	padding: 30px 0 30px 0;
+}
+#services .col-md-3 {
+	padding-top: 40px;
+	text-align: center;
+}
+#services h5{
+	padding: 40px 0 0 0;
+}
+#services h5 a {
+	text-decoration: none;
+}
+#services p {
+	padding: 5px;
+}
+#services .row {
+	margin: 0;
+}
+
+.sc-services{
+	padding: 50px 0 50px 0;
+}
+#services img {
+	max-width: 290px ;
+}
+#services h3 {
+	text-align: left;
+	padding: 50px 0 20px 0;
+}
+#services .col-md-7 p{
+	text-align: justify;
+}
+
+/*=================================================================
+ NEWSTELLER =======*/
+#newsteller{
+	text-align: center;
+	background-color: #2166c1;
+	color: white;
+
+}
+#newsteller h3 {
+	padding: 50px 0 20px 0;
+}
+#newsteller .btn-primary {
+	background-color: white;
+	color: black;
+	margin: 20px 0 30px 0;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+}
+#newsteller .btn-primary:hover{
+	background-color: #545454;
+	color: white;
+}
+#newsteller a {
+	padding: 10px;
+}
+
+/*===============================================================================
+ FOOTER =====*/
+footer {
+	background-color: #f4f4f4;
+	padding: 40px 0 40px 0;
+}
+footer ul {
+	padding: 10px 0 0 0;
+}
+footer ul li {
+	list-style-type: none;
+	text-decoration: none;
+}
+.col-md-8 ul li a {
+	color: black;
+	text-decoration: none;
+	padding: 10px 0px 10px 10px ;
+}
+.col-md-8 ul li a:hover {
+	color: #2166c1;
+}
+footer .col-md-4 p {
+	padding-top: 10px;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px){
+	footer .col-md-8 ul li{
+		text-align: center;
+	}
+}
+
+
+/*==============================================================
+  MAIN PAGE */
+
+#mainpage .container {
+	padding-top: 50px;
+}
+
+.main-page {
+	background-color: white;
+}
+#mainpage .breadcrumb {
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+#mainpage .breadcrumb li a {
+	color: #2166c1;
+}
+.fa-home {
+	padding-right: 5px;
+}
+#mainpage a {
+	text-decoration: none;
+	font-size: 13pt;
+}
+#mainpage img {
+	width: 100%;
+}
+
+.main-page {
+	background-color: white;
+	padding: 0 15px 15px 15px;
+	border: 1px solid #efefef;
+}
+.pg-title {
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
+.pg-title p {
+	color: #545454;
+}
+.pg-title p a {
+	color: #545454;
+}
+.pg-title p a:hover{
+	color: #2166c1;
+}
+@media screen and (max-width: 768px){
+	.pg-title h2 {
+		font-size: 19pt;
+	}
+}
+
+article {
+	padding: 20px 15px 20px 15px;
+}
+article p {
+	font-size: 13pt;
+	 color:  #777777;
+}
+.tag {
+	margin-top: 80px;
+	font-size: 10pt;
+}
+.tag a {
+	padding: 5px;
+}
+.badge-secondary {
+	background-color: #efefef;
+}
+
+.blockquote {
+	margin-left: 40px;
+	border-left: 5px solid #efefef;
+	height: 80px;
+}
+.blockquote h5 {
+	padding: 20px 0px 20px 20px;
+}
+
+/*===================================================
+  COMMENT */
+.comment {
+	background-color: white;
+	padding: 20px 15px 15px 15px;
+	border: 1px solid #efefef;
+	margin: 40px 0 40px 0;
+
+}
+.comment h3 {
+	padding-bottom: 20px;
+}
+
+/*===================================================
+  SIDEBAR*/
+.related-post{
+	background-color: white;
+	padding: 20px 15px 15px 15px;
+	border: 1px solid #efefef;
+}
+.category {
+	background-color: white;
+	padding: 20px 15px 15px 15px;
+	margin: 20px 0 20px 0;
+	border: 1px solid #efefef;
+}
+.list-group .list-group-item:hover {
+	background-color: #2166c1;
+	color: white;
+}
+
+.newsteller {
+	background-color: #2166c1;
+	padding: 20px 15px 15px 15px;
+	margin: 20px 0 20px 0;
+	border: 1px solid #efefef;
+}
+.text-newsteller {
+  padding: 10px 0 10px 0;
+  text-align: center;
+  color: white;
+}
+.text-newsteller h5 {
+  padding: 10px 0 5px 0;
+}
+.email {
+  padding: 10px 0 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.input-email input {
+  border: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  padding-left: 10px;
+}
+.send button {
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: white;
+  background-color: #484849;
+  height: 40px;
+  width: 60px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.send button:hover {
+  background-color: red;
+}
+
+
+/*================================================
+  FULL PAGE */
+
+#full-page .col-md-12 {
+	padding: 30px 155px 0 155px;
+
+}
+.full-page {
+	padding: 0px 10px 2px 10px;
+	border: 1px solid #efefef;
+}
+.full-page .pg-img {
+	padding-left: 50px;
+}
+.full-page {
+	background-color: white;
+	margin-bottom: 40px;
+}
+
+
+/*=================================================
+  404 PAGE */
+.error-page  {
+	text-align: center;
+	background-color: #f8f9fa;
+}
+.error-page .col-sm-12 {
+	margin: 115px 0 60px 0;
+	padding: 0 300px 0 300px;
+	
+}
+.error-page img{
+	height: 140px;
+	padding: 20px 0 10px 0;
+}
+.error-page h4 {
+	padding: 10px 0 10px 0;
+}
+.error-page p {
+	color: #2166c1;
+	font-size: 18px;
+}
+.error-page .btn-primary {
+	margin: 20px 0 20px 0;
+	border-radius: 50px;
+	padding: 15px 30px 15px 30px;
+}
+.error-page .social {
+	padding-top: 50px;
+}
+.error-page .social ul {
+	display: flex;
+	justify-content: center;
+	padding: 0px;
+}
+.error-page .social ul li{
+	list-style-type: none;
+}
+.error-page .social ul li a {
+	text-decoration: none;
+	padding: 10px 10px 10px 10px;
+	color: #545454;
+}
+.error-page .social ul li a:hover {
+	color: #2166c1;
+}
+
+
+/*================================================
+  RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+	#full-page .col-md-12 {
+		padding: 30px 15px 0px 15px;
+	}
+	.full-page .pg-img {
+		padding-left:0px; 
+	}
+	.blockquote {
+		margin-left: 0px;
+		height: 60px;
+	}
+	.blockquote h5 {
+		padding: 10px 0px 10px 10px;
+		font-size: 14pt;
+	}
+	.error-page .col-sm-12 {
+		margin: 60px 0 15px 0;
+		padding: 0 15px 0 15px;
+	}
+}
